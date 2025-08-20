@@ -30,7 +30,9 @@ bot_token = os.getenv("BOT_TOKEN")
 
 # print(f"ENV TOKEN: {bot_token}")
 # print(f"API_Login \n {api_login_url} Api_General \n {api_url}" )
-# print(f") 
+# print(f"JWT_Token \n {jwt_token})
+#далее по примеру
+
 bot = Bot(token=str(bot_token), default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 dp = Dispatcher()
 
